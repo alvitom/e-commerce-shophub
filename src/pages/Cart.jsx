@@ -6,9 +6,6 @@ import { Link } from "react-router-dom"
 import Container from "../components/Container"
 
 const Cart = () => {
-  const handleCheckout = () => {
-    location.href = "/checkout"
-  }
   return (
     <>
       <Meta title="Cart" />
@@ -131,9 +128,9 @@ const Cart = () => {
               <div className="text-end">
                 <h3>SubTotal: $1000</h3>
                 <p>Taxes and shipping calculated at checkout</p>
-                <button className="button" onClick={handleCheckout}>
+                <a href="/checkout" className="button">
                   Checkout
-                </button>
+                </a>
               </div>
             </div>
           </div>

@@ -43,8 +43,8 @@ const App = () => {
             <Route path="refund-policy" element={<RefundPolicy />} />
             <Route path="shipping-policy" element={<ShippingPolicy />} />
             <Route path="terms-of-service" element={<TermsOfService />} />
-            <Route path="checkout" element={<Checkout />} />
           </Route>
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </BrowserRouter>
     </>
