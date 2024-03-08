@@ -2,7 +2,6 @@ import "./App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Layout from "./components/Layout"
 import Home from "./pages/Home"
-import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Store from "./pages/Store"
 import Blog from "./pages/Blog"
@@ -44,9 +43,8 @@ const App = () => {
             <Route path="refund-policy" element={<RefundPolicy />} />
             <Route path="shipping-policy" element={<ShippingPolicy />} />
             <Route path="terms-of-service" element={<TermsOfService />} />
-            {/* <Route path="about" element={<About />} /> */}
+            <Route path="checkout" element={<Checkout />} />
           </Route>
-          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -9,7 +9,7 @@ const SignUp = () => {
     <>
       <Meta title="Sign Up" />
       <Breadcrumb title="Sign Up" />
-      <Container className="auth-wrapper py-5">
+      <Container class1="auth-wrapper py-5">
         <div className="row">
           <div className="col-4 mx-auto">
             <div className="auth-container">
