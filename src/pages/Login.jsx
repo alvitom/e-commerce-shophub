@@ -5,6 +5,9 @@ import Container from "../components/Container"
 import CustomInput from "../components/CustomInput"
 
 const Login = () => {
+  const signUp = () => {
+    location.href = "/sign-up"
+  }
   return (
     <>
       <Meta title="Login" />
@@ -34,9 +37,9 @@ const Login = () => {
                   <button type="submit" className="submit">
                     Login
                   </button>
-                  <a href="/sign-up" className="sign-up">
+                  <button type="button" className="sign-up" onClick={signUp}>
                     Sign Up
-                  </a>
+                  </button>
                 </div>
               </form>
             </div>
